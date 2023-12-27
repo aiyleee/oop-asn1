@@ -13,7 +13,7 @@ public class MyApplication {
 
         File file = new File("/Users/ayaulymorazbayeva/Documents/GitHub/oop-asn1/src/inf");
 
-        Scanner is = new Scanner(file);
+        Scanner sc = new Scanner(file);
         //linkin my inf file
 
         Shape shape = new Shape();
@@ -23,9 +23,9 @@ public class MyApplication {
         Point pn = null;
         //new variables for points, first-point and previous-point
         //and read points from that inf file
-        while (is.hasNext()) {
-            double x = is.nextDouble();
-            double y = is.nextDouble();
+        while (sc.hasNext()) {
+            double x = sc.nextDouble();
+            double y = sc.nextDouble();
 
 
             Point point = new Point(x, y);
