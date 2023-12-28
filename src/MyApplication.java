@@ -52,7 +52,7 @@ public class MyApplication {
             System.out.println("Distance between " + pn + " and " + p1 + " = " + d);
         }
 
-        //Final output
+        //final output
         System.out.println("Perimeter: " + shape.P());
         System.out.println("Average side: " + shape.middlevalue());
         System.out.println("Longest side: " + shape.longestvalue());

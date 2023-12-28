@@ -15,7 +15,7 @@ public class Shape {
     public double P() {
         //perimeter
         double p = 0;
-        int n = points.length();
+        int n = points.size();
 
 
         for (int i = 0; i < n; i++) {
@@ -30,7 +30,7 @@ public class Shape {
 
    //averageSide(): Calculate and return the average length of the sides in the shape.
     public double middlevalue() {
-        int v = points.length();
+        int v = points.size();
         if (v == 0) {
             return 0;
         }
