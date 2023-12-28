@@ -4,13 +4,15 @@ import models.Shape;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
-
+/*
 public class MyApplication {
     private static String[] args;
 
     public static void main(String[] args) throws FileNotFoundException {
         MyApplication.args = args;
-
+*/
+public class MyApplication {
+    public static void main(String[] args) throws FileNotFoundException {
         File file = new File("/Users/ayaulymorazbayeva/Documents/GitHub/oop-asn1/src/inf");
 
         Scanner sc = new Scanner(file);
